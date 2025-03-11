@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand background
+                color > image > position > repeat > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid blue;
@@ -33,7 +41,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ut, iure hic ipsam nisi quis voluptate voluptates sunt numquam quaerat, velit dicta ad laborum quos ea illo? Laudantium, sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos saepe veniam a, praesentium, asperiores pariatur quisquam ipsam natus esse possimus optio non odit officia, ratione laborum maiores perspiciatis dignissimos libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro id deleniti enim quod deserunt harum distinctio ad. Ratione placeat illo ex veniam distinctio vero dolores, rem animi neque dicta similique?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ut, iure hic ipsam nisi quis voluptate voluptates sunt numquam quaerat, velit dicta ad laborum quos ea illo? Laudantium, sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos saepe veniam a, praesentium, asperiores pariatur quisquam ipsam natus esse possimus optio non odit officia, ratione laborum maiores perspiciatis dignissimos libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro id deleniti enim quod deserunt harum distinctio ad. Ratione placeat illo ex veniam distinctio vero dolores, rem animi neque dicta similique?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ut, iure hic ipsam nisi quis voluptate voluptates sunt numquam quaerat, velit dicta ad laborum quos ea illo? Laudantium, sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos saepe veniam a, praesentium, asperiores pariatur quisquam ipsam natus esse possimus optio non odit officia, ratione laborum maiores perspiciatis dignissimos libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro id deleniti enim quod deserunt harum distinctio ad. Ratione placeat illo ex veniam distinctio vero dolores, rem animi neque dicta similique?</p>
-        
+
     </main>
 </body>
 </html>
