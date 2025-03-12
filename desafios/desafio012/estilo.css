@@ -17,6 +17,7 @@ header{
 header h1{
     margin: 0px;
     font-size: 5em;
+    font-variant: small-caps;
 }
 
 header p{
